@@ -1,11 +1,19 @@
-﻿interface Item {
+interface Item {
     name: string;
     quality: number;
     sellIn: number;
 }﻿
 
-export const updateQuality = (items: Item[]): Item[] => {
-    items.forEach((item: Item) => {
+const isLegendary = (item: Item): boolean => {
+    return item.name === 'Sulfuras, Hand of Ragnaros';
+}
+
+const getUpdatedSellIn = (item: Item): number => {
+    if (isLegendary(item)) {
+        return item.sellIn;
+    }
+    return item.sellIn - 1;
+}
         if (item.name != 'Aged Brie' && item.name != 'Backstage passes to a TAFKAL80ETC concert') {
             if (item.quality > 0) {
                 if (item.name != 'Sulfuras, Hand of Ragnaros') {
@@ -32,6 +40,7 @@ export const updateQuality = (items: Item[]): Item[] => {
         if (item.name != 'Sulfuras, Hand of Ragnaros') {
             item.sellIn = item.sellIn - 1;
         }
+        item.sellIn = getUpdatedSellIn(item);
         if (item.sellIn < 0) {
             if (item.name != 'Aged Brie') {
                 if (item.name != 'Backstage passes to a TAFKAL80ETC concert') {
