@@ -26,5 +26,21 @@ describe("The update item function", () => {
            const updatedItems = updateQuality(items);
            expect(updatedItems[0].sellIn).toBe(-1);
        })
-   }) 
+   })
+    
+    describe("updates the quality", () => {
+        describe("of regular items", () => {
+            it("by decreasing it by 1", () => {
+                const items = [{ name: "Regular Item", sellIn: 10, quality: 20 }];
+                const updatedItems = updateQuality(items);
+                expect(updatedItems[0].quality).toBe(19);
+            });
+
+            it("doesn't decrease below zero", () => {
+                const items = [{ name: "Regular Item", sellIn: 10, quality: 0 }];
+                const updatedItems = updateQuality(items);
+                expect(updatedItems[0].quality).toBe(0);
+            });
+        })
+    })
 });
