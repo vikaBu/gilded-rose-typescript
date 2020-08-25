@@ -41,6 +41,14 @@ describe("The update item function", () => {
                 const updatedItems = updateQuality(items);
                 expect(updatedItems[0].quality).toBe(0);
             });
+        });
+        
+        describe("of legendary items", () => {
+            it("doesn't change", () => {
+                const items = [{ name: "Sulfuras, Hand of Ragnaros", sellIn: 10, quality: 20 }];
+                const updatedItems = updateQuality(items);
+                expect(updatedItems[0].quality).toBe(20);
+            })
         })
     })
 });
