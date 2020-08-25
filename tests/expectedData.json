@@ -1,0 +1,902 @@
+[
+  {
+    "day": 1,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 9,
+        "quality": 19
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": 1,
+        "quality": 1
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": 1,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 14,
+        "quality": 21
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 9,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 4,
+        "quality": 50
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 8,
+        "quality": 18
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": 0,
+        "quality": 2
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": 0,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 13,
+        "quality": 22
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 8,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 3,
+        "quality": 50
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 7,
+        "quality": 17
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -1,
+        "quality": 4
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -1,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 12,
+        "quality": 23
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 7,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 2,
+        "quality": 50
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 6,
+        "quality": 16
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -2,
+        "quality": 6
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -2,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 11,
+        "quality": 24
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 6,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 1,
+        "quality": 50
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 5,
+        "quality": 15
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -3,
+        "quality": 8
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -3,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 10,
+        "quality": 25
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 5,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 0,
+        "quality": 50
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 4,
+        "quality": 14
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -4,
+        "quality": 10
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -4,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 9,
+        "quality": 27
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 4,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 3,
+        "quality": 13
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -5,
+        "quality": 12
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -5,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 8,
+        "quality": 29
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 3,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -2,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 2,
+        "quality": 12
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -6,
+        "quality": 14
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -6,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 7,
+        "quality": 31
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 2,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -3,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 1,
+        "quality": 11
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -7,
+        "quality": 16
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -7,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 6,
+        "quality": 33
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 1,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -4,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": 0,
+        "quality": 10
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -8,
+        "quality": 18
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -8,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 5,
+        "quality": 35
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 0,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -5,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -1,
+        "quality": 8
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -9,
+        "quality": 20
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -9,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 4,
+        "quality": 38
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -1,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -6,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -2,
+        "quality": 6
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -10,
+        "quality": 22
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -10,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 3,
+        "quality": 41
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -2,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -7,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -3,
+        "quality": 4
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -11,
+        "quality": 24
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -11,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 2,
+        "quality": 44
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -3,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -8,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -4,
+        "quality": 2
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -12,
+        "quality": 26
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -12,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 1,
+        "quality": 47
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -4,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -9,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -5,
+        "quality": 0
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -13,
+        "quality": 28
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -13,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": 0,
+        "quality": 50
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -5,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -10,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -6,
+        "quality": 0
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -14,
+        "quality": 30
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -14,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -1,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -6,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -11,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -7,
+        "quality": 0
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -15,
+        "quality": 32
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -15,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -2,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -7,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -12,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -8,
+        "quality": 0
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -16,
+        "quality": 34
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -16,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -3,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -8,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -13,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -9,
+        "quality": 0
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -17,
+        "quality": 36
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -17,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -4,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -9,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -14,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "items": [
+      {
+        "name": "+5 Dexterity Vest",
+        "sellIn": -10,
+        "quality": 0
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -18,
+        "quality": 38
+      },
+      {
+        "name": "Aged Brie",
+        "sellIn": -18,
+        "quality": 50
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": 0,
+        "quality": 80
+      },
+      {
+        "name": "Sulfuras, Hand of Ragnaros",
+        "sellIn": -1,
+        "quality": 80
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -5,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -10,
+        "quality": 0
+      },
+      {
+        "name": "Backstage passes to a TAFKAL80ETC concert",
+        "sellIn": -15,
+        "quality": 0
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
-﻿﻿[
+﻿[
   { "name": "+5 Dexterity Vest", "sellIn": 10, "quality": 20 },
-  { "name": "+3 Armour Jacket", "sellIn":  12, "quality":  15}, 
+  { "name": "+3 Armour Jacket", "sellIn":  12, "quality":  15},
   { "name": "Aged Brie", "sellIn": 2, "quality": 0 },
   { "name": "Elixir of the Mongoose", "sellIn": 5, "quality": 7 },
   { "name": "Sulfuras, Hand of Ragnaros", "sellIn": 0, "quality": 80 },

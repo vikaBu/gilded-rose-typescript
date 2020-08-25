@@ -7,7 +7,7 @@
     "start": "babel-node -r ts-node/register ./src/index.ts",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watchAll",
-    "test:generate": "babel-node -r ts-node/register ./tests/data/generateExpectedData.ts",
+    "test:generate": "babel-node -r ts-node/register ./tests/generateExpectedData.ts",
     "test:all": "npm run test:generate && npm run test"
   },
   "dependencies": {
