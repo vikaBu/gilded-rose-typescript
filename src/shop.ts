@@ -1,4 +1,10 @@
-﻿﻿export const updateQuality = (items: any) => {
+﻿interface Item {
+    name: string;
+    quality: number;
+    sellIn: number;
+}﻿
+
+export const updateQuality = (items: Item[]): Item[] => {
     for (let i = 0; i < items.length; i++) {
         if (items[i].name != 'Aged Brie' && items[i].name != 'Backstage passes to a TAFKAL80ETC concert') {
             if (items[i].quality > 0) {
