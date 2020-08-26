@@ -41,6 +41,14 @@ describe("The update item function", () => {
                 const updatedItems = updateQuality(items);
                 expect(updatedItems[0].quality).toBe(0);
             });
+            it ("sellin date is below 0 then decrease quality by two", ()=>{
+                const items =[{ name: "Regular Item", sellIn :0, quality: 5}];
+                const updatedItems = updateQuality(items);
+                expect(updatedItems[0].quality).toBe(3)
+            })
+
+            
+            
         });
         
         describe("of legendary items", () => {
@@ -49,6 +57,8 @@ describe("The update item function", () => {
                 const updatedItems = updateQuality(items);
                 expect(updatedItems[0].quality).toBe(20);
             })
+
+
         })
     })
 
@@ -73,6 +83,11 @@ describe("The update item function", () => {
             const updatedItems = updateQuality(items);
             expect(updatedItems[0].quality).toBe(50);
         });
+        it('should drop to 0 once sellIn expires', () =>{
+            const items = [{ name :"Backstage passes to a TAFKAL80ETC concert", sellIn: 0, quality: 5}];
+            const updatedItems = updateQuality(items);
+            expect(updatedItems[0].quality).toBe(0);
+        })
 
     })
     describe("of Aged Brie", () => {

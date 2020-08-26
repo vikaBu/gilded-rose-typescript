@@ -2,7 +2,7 @@
     name: string;
     quality: number;
     sellIn: number;
-}﻿
+}
 const isLegendary = (item: Item): boolean => {
     return item.name === 'Sulfuras, Hand of Ragnaros';
 }
@@ -19,28 +19,47 @@ const getUpdatedSellIn = (item: Item): number => {
     return item.sellIn - 1;
 }
 const getUpdatedRegularItemQuality = (item: Item): number => {
-    if (item.quality > 0) {
-        return item.quality - 1;
+    let newQuality = item.quality - 1
+
+    if (isExipred(item)) {
+        newQuality--;
     }
-    return 0;
-}
-const getUpdatedBackstagePassQuality = (item: Item): number => {
-    let newQuality = item.quality + 1;
-    if (item.sellIn< 11) {
-        newQuality ++;
-    }
-    if (item.sellIn< 6) {
-        newQuality ++;
-    }
-    if (newQuality >= 50) {
-        newQuality = 50;
+    if (newQuality <= 0) {
+        newQuality = 0;
     }
     return newQuality;
 }
 
+
+const getUpdatedBackstagePassQuality = (item: Item): number => {
+    let newQuality = item.quality + 1;
+    if (item.sellIn < 11) {
+        newQuality++;
+    }
+    if (item.sellIn < 6) {
+        newQuality++;
+    }
+    if (newQuality >= 50) {
+        newQuality = 50;
+    }
+    if (isExipred(item)) {
+        newQuality = 0;
+    }
+
+    return newQuality;
+}
+
+const isExipred = (item: Item): boolean => {
+    if (item.sellIn <= 0) {
+        return true;
+    }
+    return false;
+
+}
+
 const getUpdatedAgedBrieQuality = (item: Item): number => {
     let newQuality = item.quality + 1;
-    if (item.sellIn <= 0) {
+    if (isExipred(item)) {
         newQuality++;
     }
     if (newQuality >= 50) {
@@ -50,7 +69,7 @@ const getUpdatedAgedBrieQuality = (item: Item): number => {
 }
 
 const getUpdatedQuality = (item: Item): number => {
-    
+
     if (isLegendary(item)) {
         return item.quality;
     }
@@ -66,20 +85,8 @@ export const updateQuality = (items: Item[]): Item[] => {
     items.forEach((item: Item) => {
         item.quality = getUpdatedQuality(item);
         item.sellIn = getUpdatedSellIn(item);
-        if (item.sellIn < 0) {
-            if (item.name != 'Aged Brie') {
-                if (item.name != 'Backstage passes to a TAFKAL80ETC concert') {
-                    if (item.quality > 0) {
-                        if (item.name != 'Sulfuras, Hand of Ragnaros') {
-                            item.quality = item.quality - 1;
-                        }
-                    }
-                } else {
-                    item.quality = item.quality - item.quality;
-                }
-            }
-            
-        }
+
+
     });
 
     return items;
