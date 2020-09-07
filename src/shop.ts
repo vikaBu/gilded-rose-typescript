@@ -12,6 +12,10 @@ const isAgedBrie = (item: Item): boolean => {
 const isBackstagePass = (item: Item): boolean => {
     return item.name === 'Backstage passes to a TAFKAL80ETC concert';
 }
+const isConjuredItem = (item: Item): boolean =>{
+    return item.name === 'Conjured Item';
+}
+
 const getUpdatedSellIn = (item: Item): number => {
     if (isLegendary(item)) {
         return item.sellIn;
@@ -68,6 +72,18 @@ const getUpdatedAgedBrieQuality = (item: Item): number => {
     return newQuality;
 }
 
+const getUpdatedConjuredItemQuality = (item: Item): number => {
+    let newQuality = item.quality -2 ;
+
+    if (isExipred(item)) {
+        newQuality= newQuality -2;
+    }
+    if (newQuality <= 0) {
+        newQuality = 0;
+    }
+    return newQuality;
+
+}
 const getUpdatedQuality = (item: Item): number => {
 
     if (isLegendary(item)) {
@@ -79,7 +95,13 @@ const getUpdatedQuality = (item: Item): number => {
     if (isBackstagePass(item)) {
         return getUpdatedBackstagePassQuality(item);
     }
+    if (isConjuredItem(item)){
+        return getUpdatedConjuredItemQuality(item);
+    }
     return getUpdatedRegularItemQuality(item);
+    
+
+
 }
 export const updateQuality = (items: Item[]): Item[] => {
     items.forEach((item: Item) => {

@@ -108,5 +108,24 @@ describe("The update item function", () => {
         })
 
     })
-});
 
+
+     describe("Conjured item", () => {
+         it ("when sell in above 0 decrease by 2", () => {
+             const items = [{name: "Conjured Item", sellIn:10, quality:10}];
+             const updatedItems = updateQuality(items);
+             expect(updatedItems[0].quality).toBe(8);
+         })
+
+         it ("when sell in below 0 decrease by 4", () => {
+            const items = [{name: "Conjured Item", sellIn:0, quality:10}];
+            const updatedItems = updateQuality(items);
+            expect(updatedItems[0].quality).toBe(6);
+        })
+
+        it ("quality cannot decrease below zero", () => {
+            const items = [{name: "Conjured Item", sellIn:0, quality:0}];
+            const updatedItems = updateQuality(items);
+            expect(updatedItems[0].quality).toBe(0);
+        })
+})})
